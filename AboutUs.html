@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px 20px;
+  text-align: center;
+  background:blue;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar2 {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+padding: 50px 20px;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar2 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: justified;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+padding: 14px 20px;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: blue;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: grey;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3>The site is in progress since 29th April.The date is crucial.</h3>
+  <h1>DrawingsHostingSite or DHS</h1>
+  <p>This is the<b> About Us </b>page.</p>
+</div>
+
+<div class="navbar">
+  <a href="F:\Astaar\Adarsh Maurya\Documents\web1.html">Home</a>
+  <a href="#" class="active">About Us</a>
+  <a href="#">Career</a>
+<a href="#">Drawings/Arts</a>
+<a href="#">More</a>
+  <a href="F:\Astaar\Adarsh Maurya\Documents\register.html" class="right">Login/Register</a>
+</div>
+
+
+  <div class="main">
+   
+    <p>Drawings Hosting website</p>
+<p>The site is hosted for exchange of ideas,concepts,thoughts,creative solutions by users either registered or anonymous to boost and help each other
+and progress.</p><p>The users community of this site can help each other in generating new creative concepts for better ideas and designs.
+Users can comment,review,improvise,give solutions,share ideas(by journals,theories,art designs,etc.</p>
+    <p>The website began its development journey on 29th April 2021 and is still in progress.</p>
+    <br>
+<br><br><br><br><br><br><br><br><br><br>
+   
+</div>
+
+<div class="navbar2">
+  <a href="F:\Astaar\Adarsh Maurya\Documents\web1.html" >Home</a><br>
+  <a href="#" class="active">About Us</a><br>
+  <a href="#">Our Users</a><br>
+<a href="#">Categories</a><br>
+<a href="#">More</a><br>
+  <a href="#" class="right">Any qustions/Comments</a>
+</div>
+
+<div class="footer">
+  <h3>e-mail id:adarshmsd1@gmail.com</h3>
+<h4>Contact/Whatsapp:707116116</h4>
+<h4><a href="www.xyz"</a>www.linkedin.com/in/adarsh-maurya-90277820b</h4>
+<h4>github.com/adarsh</h4>
+
+</div>
+
+</body>
+</html>
